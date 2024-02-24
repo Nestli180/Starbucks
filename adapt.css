@@ -1,0 +1,40 @@
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.adapt{
+    width: auto;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.adapt-2{
+    width: auto;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.foot-hr{
+    width: 100%;
+}
+
+@media screen and (max-width: 2560px){
+    .foot-hr{
+        width: 43%;
+    }
+}
+
+@media screen and (max-width: 1190px) {
+    .foot-hr{
+        width: 100%;
+    }
+}
